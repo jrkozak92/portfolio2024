@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@portfolio/assets": ["libs/shared/assets/src/index.ts"],
+      "@portfolio/assets/server": ["libs/shared/assets/src/server.ts"],
+      "@portfolio/express-api": ["libs/express-api/src/index.ts"],
+      "@portfolio/ui": ["libs/shared/ui/src/index.ts"],
+      "@portfolio/ui/server": ["libs/shared/ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

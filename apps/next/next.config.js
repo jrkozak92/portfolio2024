@@ -12,7 +12,17 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: ['/api'],
+  //       desination: `http://localhost/:path*`
+  //     }
+  //   ]
+
+  // }
 };
+
 
 const plugins = [
   // Add more Next.js plugins to this list if needed.
